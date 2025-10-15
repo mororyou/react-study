@@ -1,0 +1,14 @@
+### **概要**
+
+useEffectEventはuseEffectとセットで利用するhooks
+
+useEffectEventを利用することでエフェクトとイベントリスナーを分岐することができ
+イベントリスナーの deps の変化時にエフェクトを再実行せずに済みます
+
+Effectとの依存関係を少なくすることで、不要な再レンダリングや不要な副作用を防止することができます
+
+### **注意**
+onClick などで関数を呼び出すことはできますがEffect（useEffect 内）専用の安定したコールバックを作るためのものであるため、　
+UIから呼ぶ際はuseCallbackを利用すること
+
+*eslint-plugin-react-hooks 6.1.1 以降のバージョンにて上記の制限が可能

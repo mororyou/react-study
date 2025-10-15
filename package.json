@@ -7,9 +7,11 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "scan": "next dev & npx react-scan@latest localhost:3000"
   },
   "dependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
     "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-separator": "^1.1.7",
     "@radix-ui/react-slot": "^1.2.3",
@@ -22,6 +24,7 @@
     "next-mdx-remote-client": "^2.1.7",
     "react": "19.2.0",
     "react-dom": "19.2.0",
+    "react-scan": "^0.4.3",
     "rehype-sanitize": "^6.0.0",
     "remark-gfm": "^4.0.1",
     "tailwind-merge": "^3.3.1"

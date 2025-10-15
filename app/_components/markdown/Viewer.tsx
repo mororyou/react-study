@@ -1,5 +1,6 @@
 import { MDX_OPTIONS } from '@/libs/mdx';
 import { MDXRemote } from 'next-mdx-remote-client/rsc';
+import '@/styles/markdown.css';
 
 export default function Viewer({ source }: { source: string }) {
   return (

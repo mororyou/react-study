@@ -1,9 +1,8 @@
 import { readFile } from 'fs/promises';
 import { join } from 'path';
+import Viewer from '@/app/_components/markdown/Viewer';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import '@/styles/markdown.css';
-import Viewer from '@/app/_components/markdown/Viewer';
 
 export default async function ActivityPage() {
   const filePath = join(process.cwd(), 'app', '19-2', 'activity', 'readme.mdx');

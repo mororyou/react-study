@@ -1,0 +1,286 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "React の基礎を学ぶ",
+      "completed": true,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Next.js のドキュメントを読む",
+      "completed": true,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "サーバーコンポーネントを実装する",
+      "completed": false,
+      "userId": 2
+    },
+    {
+      "id": 4,
+      "title": "UIコンポーネントを作成する",
+      "completed": false,
+      "userId": 2
+    },
+    {
+      "id": 5,
+      "title": "API ルートを設計する",
+      "completed": false,
+      "userId": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "山田太郎",
+      "email": "yamada@example.com"
+    },
+    {
+      "id": 2,
+      "name": "佐藤花子",
+      "email": "sato@example.com"
+    },
+    {
+      "id": 3,
+      "name": "鈴木一郎",
+      "email": "suzuki@example.com"
+    },
+    {
+      "id": 4,
+      "name": "田中美咲",
+      "email": "tanaka@example.com"
+    },
+    {
+      "id": 5,
+      "name": "高橋健太",
+      "email": "takahashi@example.com"
+    },
+    {
+      "id": 6,
+      "name": "渡辺由美",
+      "email": "watanabe@example.com"
+    },
+    {
+      "id": 7,
+      "name": "伊藤大輔",
+      "email": "ito@example.com"
+    },
+    {
+      "id": 8,
+      "name": "中村愛",
+      "email": "nakamura@example.com"
+    },
+    {
+      "id": 9,
+      "name": "小林翔太",
+      "email": "kobayashi@example.com"
+    },
+    {
+      "id": 10,
+      "name": "加藤結衣",
+      "email": "kato@example.com"
+    },
+    {
+      "id": 11,
+      "name": "吉田拓也",
+      "email": "yoshida@example.com"
+    },
+    {
+      "id": 12,
+      "name": "山本さくら",
+      "email": "yamamoto@example.com"
+    },
+    {
+      "id": 13,
+      "name": "松本和也",
+      "email": "matsumoto@example.com"
+    },
+    {
+      "id": 14,
+      "name": "井上真理子",
+      "email": "inoue@example.com"
+    },
+    {
+      "id": 15,
+      "name": "木村隆",
+      "email": "kimura@example.com"
+    },
+    {
+      "id": 16,
+      "name": "林優子",
+      "email": "hayashi@example.com"
+    },
+    {
+      "id": 17,
+      "name": "斎藤誠",
+      "email": "saito@example.com"
+    },
+    {
+      "id": 18,
+      "name": "清水奈々",
+      "email": "shimizu@example.com"
+    },
+    {
+      "id": 19,
+      "name": "山口勇",
+      "email": "yamaguchi@example.com"
+    },
+    {
+      "id": 20,
+      "name": "森美穂",
+      "email": "mori@example.com"
+    },
+    {
+      "id": 21,
+      "name": "池田亮",
+      "email": "ikeda@example.com"
+    },
+    {
+      "id": 22,
+      "name": "橋本かおり",
+      "email": "hashimoto@example.com"
+    },
+    {
+      "id": 23,
+      "name": "山崎裕介",
+      "email": "yamazaki@example.com"
+    },
+    {
+      "id": 24,
+      "name": "石川恵",
+      "email": "ishikawa@example.com"
+    },
+    {
+      "id": 25,
+      "name": "前田大樹",
+      "email": "maeda@example.com"
+    },
+    {
+      "id": 26,
+      "name": "岡田梨花",
+      "email": "okada@example.com"
+    },
+    {
+      "id": 27,
+      "name": "藤田修",
+      "email": "fujita@example.com"
+    },
+    {
+      "id": 28,
+      "name": "後藤彩",
+      "email": "goto@example.com"
+    },
+    {
+      "id": 29,
+      "name": "長谷川直樹",
+      "email": "hasegawa@example.com"
+    },
+    {
+      "id": 30,
+      "name": "村上陽子",
+      "email": "murakami@example.com"
+    },
+    {
+      "id": 31,
+      "name": "近藤健一",
+      "email": "kondo@example.com"
+    },
+    {
+      "id": 32,
+      "name": "石井まゆみ",
+      "email": "ishii@example.com"
+    },
+    {
+      "id": 33,
+      "name": "坂本光一",
+      "email": "sakamoto@example.com"
+    },
+    {
+      "id": 34,
+      "name": "遠藤麻衣",
+      "email": "endo@example.com"
+    },
+    {
+      "id": 35,
+      "name": "青木雄太",
+      "email": "aoki@example.com"
+    },
+    {
+      "id": 36,
+      "name": "藤井恵美",
+      "email": "fujii@example.com"
+    },
+    {
+      "id": 37,
+      "name": "西村隆志",
+      "email": "nishimura@example.com"
+    },
+    {
+      "id": 38,
+      "name": "福田智子",
+      "email": "fukuda@example.com"
+    },
+    {
+      "id": 39,
+      "name": "太田正樹",
+      "email": "ota@example.com"
+    },
+    {
+      "id": 40,
+      "name": "三浦美紀",
+      "email": "miura@example.com"
+    },
+    {
+      "id": 41,
+      "name": "岡本浩二",
+      "email": "okamoto@example.com"
+    },
+    {
+      "id": 42,
+      "name": "松田京子",
+      "email": "matsuda@example.com"
+    },
+    {
+      "id": 43,
+      "name": "竹内勝",
+      "email": "takeuchi@example.com"
+    },
+    {
+      "id": 44,
+      "name": "金子友香",
+      "email": "kaneko@example.com"
+    },
+    {
+      "id": 45,
+      "name": "中島祐介",
+      "email": "nakajima@example.com"
+    },
+    {
+      "id": 46,
+      "name": "原田沙織",
+      "email": "harada@example.com"
+    },
+    {
+      "id": 47,
+      "name": "小川達也",
+      "email": "ogawa@example.com"
+    },
+    {
+      "id": 48,
+      "name": "浜田千春",
+      "email": "hamada@example.com"
+    },
+    {
+      "id": 49,
+      "name": "菅野賢一",
+      "email": "kanno@example.com"
+    },
+    {
+      "id": 50,
+      "name": "内藤美咲",
+      "email": "naito@example.com"
+    }
+  ]
+}

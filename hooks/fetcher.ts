@@ -1,32 +1,31 @@
-let cache = new Map();
+import { cache, cacheSignal } from 'react';
 
-export function fetchData(url: string) {
-  if (!cache.has(url)) {
-    cache.set(url, getData(url));
-  }
-  return cache.get(url);
-}
+const dedupedFetch = cache(fetch);
 
-async function getData(url: string) {
-  if (url.startsWith('/posts')) {
-    return await getPosts();
-  } else {
-    throw Error('Not implemented');
-  }
-}
+const JSON_SERVER_URL = 'http://localhost:3001';
 
-export async function getPosts() {
+const fetcher = async (path: string) => {
+  const response = await fetch(`${JSON_SERVER_URL}${path}`);
+  return response.json();
+};
+
+export const getUsers = cache(async () => {
   await new Promise((resolve) => {
     setTimeout(resolve, 1_000);
   });
+  return await fetcher(`/users`);
+});
 
-  const tasks = await fetch('https://jsonplaceholder.typicode.com/todos');
-  return await tasks.json();
-}
+export const nonCachedGetUsers = async () => {
+  await new Promise((resolve) => {
+    setTimeout(resolve, 1_000);
+  });
+  return await fetcher(`/users`);
+};
 
-export type Task = {
-  id: number;
-  title: string;
-  completed: boolean;
-  userId: number;
+export const getTodos = async () => {
+  await new Promise((resolve) => {
+    setTimeout(resolve, 1_000);
+  });
+  return await fetcher('/todos');
 };

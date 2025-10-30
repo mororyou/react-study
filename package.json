@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev & json-server --watch db/db.json --port 3001",
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "format": "prettier --write .",
-    "scan": "next dev & npx react-scan@latest localhost:3000"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
@@ -33,7 +32,6 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "eslint-plugin-react-hooks": "latest",
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
@@ -41,6 +39,8 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "json-server": "1.0.0-beta.3",
     "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.6.14",
     "tailwindcss": "^4",
